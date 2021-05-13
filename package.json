@@ -1,0 +1,34 @@
+{
+	"license": "MIT",
+	"version": "1.0.0",
+	"main": "index.css",
+	"description": "css-baseline",
+	"name": "@oly_op/css-baseline",
+	"bugs": "https://github.com/olyop/css-baseline/issues",
+	"homepage": "https://github.com/olyop/css-baseline/blob/master/README.md",
+	"author": {
+		"name": "Oliver Plummer",
+		"email": "oliver.plummer@outlook.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/olyop/css-baseline.git"
+	},
+	"files": [
+		"index.css"
+	],
+	"scripts": {
+		"build": "sass index.scss index.css --no-source-map",
+		"postpublish": "npm run push",
+		"delete-build": "npx del-cli index.css",
+		"prepublishOnly": "npm run delete-build && npm run build",
+		"sync": "git checkout . && git remote update && git pull",
+		"push": "git commit -am \"Update\" && git push -u origin main"
+	},
+	"devDependencies": {
+		"@oly_op/stylelint-config": "^1.0.0",
+		"del-cli": "^3.0.1",
+		"sass": "^1.32.13",
+		"stylelint": "^13.13.1"
+	}
+}
