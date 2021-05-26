@@ -23,7 +23,7 @@
 		"delete-build": "npx del-cli index.css",
 		"prepublishOnly": "npm run delete-build && npm run build",
 		"sync": "git checkout . && git remote update && git pull",
-		"push": "git commit -am \"Update\" && git push -u origin main"
+		"push": "git commit -a -m \"Update\" && git push -u origin master"
 	},
 	"devDependencies": {
 		"@oly_op/stylelint-config": "^1.0.0",
