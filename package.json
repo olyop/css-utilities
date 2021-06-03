@@ -1,34 +1,34 @@
 {
 	"license": "MIT",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"main": "index.css",
-	"description": "css-baseline",
-	"name": "@oly_op/css-baseline",
-	"bugs": "https://github.com/olyop/css-baseline/issues",
-	"homepage": "https://github.com/olyop/css-baseline/blob/master/README.md",
+	"description": "css-utilities",
+	"name": "@oly_op/css-utilities",
+	"bugs": "https://github.com/olyop/css-utilities/issues",
+	"homepage": "https://github.com/olyop/css-utilities/blob/master/README.md",
 	"author": {
 		"name": "Oliver Plummer",
 		"email": "oliver.plummer@outlook.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/olyop/css-baseline.git"
+		"url": "https://github.com/olyop/css-utilities.git"
 	},
 	"files": [
 		"index.css"
 	],
 	"scripts": {
-		"build": "sass index.scss index.css --no-source-map",
 		"postpublish": "npm run push",
 		"delete-build": "npx del-cli index.css",
+		"build": "sass index.scss index.css --no-source-map",
 		"prepublishOnly": "npm run delete-build && npm run build",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git commit -a -m \"Update\" && git push -u origin master"
 	},
 	"devDependencies": {
-		"@oly_op/stylelint-config": "^1.0.0",
+		"@oly_op/stylelint-config": "1.1.0",
 		"del-cli": "^3.0.1",
-		"sass": "^1.32.13",
+		"sass": "1.34.1",
 		"stylelint": "^13.13.1"
 	}
 }
