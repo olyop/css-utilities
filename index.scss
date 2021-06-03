@@ -37,10 +37,7 @@
 	--text-color-light: #757575;
 	--border-color: #e0e0e0;
 
-	--font-size: 1px;
-	--line-height: 1;
-	--font-family: "Roboto";
-
+	--font-size: 16rem;
 	--border-radius: 5rem;
 	--transition-duration: 0.2s;
 
@@ -58,11 +55,11 @@
 	--space-fifth: calc(var(--space) * 0.2); }
 
 html {
+	font-size: 1px;
+	line-height: 1;
+	font-family: "Roboto";
 	box-sizing: border-box;
 	color: var(--text-color);
-	font-size: var(--font-size);
-	font-family: var(--font-family);
-	line-height: var(--line-height);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased; }
 
@@ -274,21 +271,44 @@ a:hover {
 	&:last-child {
 		border-bottom: 0; } }
 
-.text {
-	font-size: 15rem; }
-.text-medium {
+.heading-one {
+	font-weight: 300;
+	font-size: 96rem;
+	letter-spacing: -1.5rem; }
+.heading-two {
+	font-weight: 300;
+	font-size: 60rem;
+	letter-spacing: -0.5rem; }
+.heading-three {
+	font-size: 48rem;
+	letter-spacing: 0; }
+.heading-four {
+	font-size: 34rem;
+	letter-spacing: 0.25rem; }
+.heading-five {
+	font-size: 24rem;
+	letter-spacing: 0; }
+.heading-six {
+	font-size: 20rem;
+	font-weight: 500;
+	letter-spacing: 0.15rem; }
+.subtitle-one {
 	font-size: 16rem;
-	font-weight: 700; }
-.text-large {
-	font-size: 18rem;
-	font-weight: 700; }
-
-.heading {
-	font-size: 33rem;
-	font-weight: 700; }
-.heading-medium {
-	font-size: 23rem;
-	font-weight: 500; }
-.heading-small {
-	font-size: 19rem;
-	font-weight: 500; }
+	letter-spacing: 0.15rem; }
+.subtitle-two {
+	font-size: 14rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem; }
+.body-one {
+	font-size: 16rem;
+	letter-spacing: 0.5rem; }
+.body-two {
+	font-size: 14rem;
+	letter-spacing: 0.25rem; }
+.button {
+	font-size: 14rem;
+	font-weight: 500;
+	letter-spacing: 1.25rem; }
+.caption {
+	font-size: 12rem;
+	letter-spacing: 0.4rem; }
