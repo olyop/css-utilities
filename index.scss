@@ -10,6 +10,11 @@
 		--font-size: 0.8px; } }
 
 :root {
+	--text-color: #333;
+	--elevated-color: #fff;
+	--border-color: #e0e0e0;
+	--background-color: #fafafa;
+
 	--primary-color: #546e7a;
 	--primary-color-text: #fafafa;
 	--primary-color-dark: #29434e;
@@ -20,14 +25,12 @@
 	--secondary-color-dark: #b91400;
 	--secondary-color-light: #ff844c;
 
-	--text-color: #333;
-	--elevated-color: #fff;
-	--border-color: #e0e0e0;
-	--background-color: #fafafa;
-
 	--font-size: 16rem;
+	--border-width: 1rem;
 	--border-radius: 5rem;
 	--button-height: 40rem;
+
+	--border-style: solid;
 	--transition-duration: 0.2s;
 
 	--space: 20rem;
@@ -304,3 +307,24 @@ a:hover {
 .Caption {
 	font-size: 12rem;
 	letter-spacing: 0.4rem; }
+
+.Border {
+	border-width: var(--border-width);
+	border-style: var(--border-style);
+	border-color: var(--border-color); }
+.BorderTop {
+	border-top-width: var(--border-width);
+	border-top-style: var(--border-style);
+	border-top-color: var(--border-color); }
+.BorderRight {
+	border-right-width: var(--border-width);
+	border-right-style: var(--border-style);
+	border-right-color: var(--border-color); }
+.BorderBottom {
+	border-bottom-width: var(--border-width);
+	border-bottom-style: var(--border-style);
+	border-bottom-color: var(--border-color); }
+.BorderLeft {
+	border-left-width: var(--border-width);
+	border-left-style: var(--border-style);
+	border-left-color: var(--border-color); }
