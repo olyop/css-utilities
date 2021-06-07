@@ -11,6 +11,7 @@
 
 :root {
 	--text-color: #333;
+	--hover-color: #eee;
 	--elevated-color: #fff;
 	--border-color: #e0e0e0;
 	--background-color: #fafafa;
@@ -231,6 +232,14 @@ a:hover {
 .FlexColumn {
 	display: flex;
 	flex-direction: column; }
+.FlexColumnGap {
+	display: flex;
+	gap: var(--space-half);
+	flex-direction: column; }
+.FlexColumnGapHalf {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-quart); }
 .FlexList {
 	display: flex;
 	align-items: center; }
