@@ -228,6 +228,9 @@ a:hover {
 
 .Flex {
 	display: flex; }
+.FlexColumn {
+	display: flex;
+	flex-direction: column; }
 .FlexList {
 	display: flex;
 	align-items: center; }
