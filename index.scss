@@ -29,7 +29,7 @@
 	--font-size: 16rem;
 	--border-width: 1rem;
 	--border-radius: 5rem;
-	--button-height: 40rem;
+	--button-dimension: 40rem;
 
 	--border-style: solid;
 	--transition-duration: 0.2s;
@@ -72,20 +72,20 @@ html {
 
 .Elevated {
 	box-shadow:
-		0 0 4px rgba(0, 0, 0, 0.14),
-		0 0 3px -2px rgba(0, 0, 0, 0.12),
-		0 0 8px rgba(0, 0, 0, 0.2);
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
 	background-color: var(--elevated-color); }
 .ElevatedRounded {
 	box-shadow:
-		0 0 4px rgba(0, 0, 0, 0.14),
-		0 0 3px -2px rgba(0, 0, 0, 0.12),
-		0 0 8px rgba(0, 0, 0, 0.2);
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
 	border-radius: var(--border-radius);
 	background-color: var(--elevated-color); }
 
 .Content {
-	width: 1300px;
+	width: 1300rem;
 	margin-left: auto;
 	margin-right: auto; }
 
@@ -102,12 +102,17 @@ html {
 	overflow: hidden;
 	transition-property: box-shadow;
 	border-radius: var(--border-radius);
+	background-color: var(--elevated-color);
 	transition-duration: var(--transition-duration);
+	box-shadow:
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
 	&:hover {
 		box-shadow:
-			0 0 10px rgba(0, 0, 0, 0.14),
-			0 0 18px rgba(0, 0, 0, 0.12),
-			0 0 5px -1px rgba(0, 0, 0, 0.2); } }
+			0 0 10rem rgba(#212121, 0.14),
+			0 0 18rem rgba(#212121, 0.12),
+			0 0 5rem -1rem rgba(#212121, 0.2); } }
 
 .Hover {
 	cursor: pointer;
@@ -116,7 +121,7 @@ html {
 		background-color: var(--hover-color); } }
 
 .ItemBorder {
-	border-bottom: 1px solid var(--border-color);
+	border-bottom: 1rem solid var(--border-color);
 	&:last-child {
 		border-bottom: 0; } }
 
