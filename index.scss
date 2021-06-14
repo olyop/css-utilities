@@ -239,12 +239,12 @@ a:hover {
 	flex-direction: column; }
 .FlexColumnGap {
 	display: flex;
-	gap: var(--space-half);
+	gap: var(--space);
 	flex-direction: column; }
 .FlexColumnGapHalf {
 	display: flex;
 	flex-direction: column;
-	gap: var(--space-quart); }
+	gap: var(--space-half); }
 .FlexList {
 	display: flex;
 	align-items: center; }
