@@ -59,7 +59,9 @@ html {
 *::after,
 *::before {
 	margin: 0;
+	border: 0;
 	padding: 0;
+	outline: none;
 	color: inherit;
 	font-size: inherit;
 	box-sizing: inherit;
@@ -79,6 +81,17 @@ a:hover {
 	width: 100vw;
 	height: 100vh; }
 
+.Content {
+	width: 1300rem;
+	margin-left: auto;
+	margin-right: auto; }
+
+@media (max-width: 1360px) {
+	.Content {
+		width: auto;
+		margin-left: var(--space);
+		margin-right: var(--space); } }
+
 .Elevated {
 	box-shadow:
 		0 0 4rem rgba(#212121, 0.14),
@@ -92,17 +105,6 @@ a:hover {
 		0 0 8rem rgba(#212121, 0.2);
 	border-radius: var(--border-radius);
 	background-color: var(--elevated-color); }
-
-.Content {
-	width: 1300rem;
-	margin-left: auto;
-	margin-right: auto; }
-
-@media (max-width: 1360px) {
-	.Content {
-		width: auto;
-		margin-left: var(--space);
-		margin-right: var(--space); } }
 
 .Rounded {
 	border-radius: var(--border-radius); }
