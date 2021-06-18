@@ -28,6 +28,7 @@
 	--secondary-color-dark: #b91400;
 	--secondary-color-light: #ff844c;
 
+	--bold: 600;
 	--font-size: 16rem;
 	--border-width: 1rem;
 	--border-radius: 5rem;
@@ -111,6 +112,9 @@ a:hover {
 .Rounded {
 	border-radius: var(--border-radius); }
 
+.Bold {
+	font-weight: 600; }
+
 .Card {
 	overflow: hidden;
 	transition-property: box-shadow;
@@ -141,9 +145,10 @@ a:hover {
 .UpperCase {
 	text-transform: uppercase; }
 
-.Page {
+.FullWidthAndHeight {
 	width: 100%;
 	height: 100%; }
+
 .PaddingTriple {
 	padding: var(--space-triple); }
 .PaddingDouble {
@@ -352,22 +357,28 @@ a:hover {
 	font-size: 20rem;
 	font-weight: 500;
 	letter-spacing: 0.15rem; }
-.SubtitleOne {
-	font-size: 16rem;
-	letter-spacing: 0.15rem; }
-.SubtitleTwo {
-	font-size: 14rem;
-	font-weight: 500;
-	letter-spacing: 0.1rem; }
 .BodyOne {
 	font-size: 16rem;
 	letter-spacing: 0.5rem; }
+.BodyOneBold {
+	font-size: 16rem;
+	letter-spacing: 0.5rem;
+	font-weight: var(--bold); }
+.BodyOneLight {
+	font-size: 16rem;
+	letter-spacing: 0.5rem;
+	color: var(--text-color-light); }
 .BodyTwo {
 	font-size: 14rem;
 	letter-spacing: 0.25rem; }
-.Caption {
-	font-size: 12rem;
-	letter-spacing: 0.4rem; }
+.BodyTwoBold {
+	font-size: 14rem;
+	letter-spacing: 0.25rem;
+	font-weight: var(--bold); }
+.BodyTwoLight {
+	font-size: 14rem;
+	letter-spacing: 0.25rem;
+	color: var(--text-color-light); }
 
 .Border {
 	border-width: var(--border-width);
