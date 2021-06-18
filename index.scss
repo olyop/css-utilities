@@ -264,7 +264,7 @@ a:hover {
 .FlexList {
 	display: flex;
 	align-items: center; }
-.FlexListCenter {
+.FlexListGapHalfCenter {
 	display: flex;
 	align-items: center;
 	justify-content: center; }
@@ -282,22 +282,50 @@ a:hover {
 	justify-content: space-between; }
 .FlexListGap {
 	display: flex;
-	align-items: center;
-	gap: var(--space-half); }
+	gap: var(--space);
+	align-items: center; }
 .FlexListGapHalf {
 	display: flex;
 	align-items: center;
+	gap: var(--space-half); }
+.FlexListGapQuart {
+	display: flex;
+	align-items: center;
 	gap: var(--space-quart); }
+.FlexListCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center; }
+.FlexListGapCenter {
+	display: flex;
+	gap: var(--space);
+	align-items: center;
+	justify-content: center; }
+.FlexListGapHalfCenter {
+	display: flex;
+	align-items: center;
+	gap: var(--space-half);
+	justify-content: center; }
+.FlexListGapQuartCenter {
+	display: flex;
+	align-items: center;
+	gap: var(--space-half);
+	justify-content: center; }
 .FlexListRight {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end; }
 .FlexListRightGap {
 	display: flex;
+	gap: var(--space);
+	align-items: center;
+	justify-content: flex-end; }
+.FlexListRightGapHalf {
+	display: flex;
 	align-items: center;
 	gap: var(--space-half);
 	justify-content: flex-end; }
-.FlexListRightGapHalf {
+.FlexListRightGapQuart {
 	display: flex;
 	align-items: center;
 	gap: var(--space-quart);
