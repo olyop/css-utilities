@@ -337,20 +337,46 @@ a:hover {
 	font-weight: 300;
 	font-size: 96rem;
 	letter-spacing: -1.5rem; }
+.HeadingOneLight {
+	font-weight: 300;
+	font-size: 96rem;
+	letter-spacing: -1.5rem;
+	color: var(--text-color-light); }
 .HeadingTwo {
 	font-weight: 300;
 	font-size: 60rem;
 	letter-spacing: -0.5rem; }
+.HeadingTwoLight {
+	font-weight: 300;
+	font-size: 60rem;
+	letter-spacing: -0.5rem;
+	color: var(--text-color-light); }
 .HeadingThree {
 	font-size: 48rem;
 	letter-spacing: 0; }
+.HeadingThreeLight {
+	font-size: 48rem;
+	letter-spacing: 0;
+	color: var(--text-color-light); }
 .HeadingFour {
 	font-size: 34rem;
 	letter-spacing: 0.25rem; }
+.HeadingFourLight {
+	font-size: 34rem;
+	letter-spacing: 0.25rem;
+	color: var(--text-color-light); }
 .HeadingFive {
 	font-size: 24rem;
 	letter-spacing: 0; }
+.HeadingFiveLight {
+	font-size: 24rem;
+	letter-spacing: 0;
+	color: var(--text-color-light); }
 .HeadingSix {
+	font-size: 20rem;
+	font-weight: 500;
+	letter-spacing: 0.15rem; }
+.HeadingSixLight {
 	font-size: 20rem;
 	font-weight: 500;
 	letter-spacing: 0.15rem; }
@@ -365,6 +391,11 @@ a:hover {
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
 	color: var(--text-color-light); }
+.BodyOneBoldLight {
+	font-size: 16rem;
+	letter-spacing: 0.5rem;
+	font-weight: var(--bold);
+	color: var(--text-color-light); }
 .BodyTwo {
 	font-size: 14rem;
 	letter-spacing: 0.25rem; }
@@ -375,6 +406,11 @@ a:hover {
 .BodyTwoLight {
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
+	color: var(--text-color-light); }
+.BodyTwoBoldLight {
+	font-size: 14rem;
+	letter-spacing: 0.25rem;
+	font-weight: var(--bold);
 	color: var(--text-color-light); }
 
 .Border {
