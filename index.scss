@@ -38,13 +38,13 @@
 	--border-style: solid;
 	--transition-duration: 0.2s;
 
-	--space: 20rem;
 	--space-quad: calc(var(--space) * 4);
 	--space-triple: calc(var(--space) * 3);
 	--space-double: calc(var(--space) * 2);
 	--space-one-three-quart: calc(var(--space) * 1.75);
 	--space-one-half: calc(var(--space) * 1.5);
 	--space-one-quart: calc(var(--space) * 1.25);
+	--space: 20rem;
 	--space-three-quart: calc(var(--space) * 0.75);
 	--space-half: calc(var(--space) * 0.5);
 	--space-quart: calc(var(--space) * 0.25);
