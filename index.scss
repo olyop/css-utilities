@@ -12,6 +12,7 @@
 :root {
 	--text-color: #333;
 	--text-color-light: #757575;
+	--text-color-inverted: #757575;
 
 	--hover-color: #eee;
 	--elevated-color: #fff;
@@ -337,49 +338,50 @@ a:hover {
 	font-weight: 300;
 	font-size: 96rem;
 	letter-spacing: -1.5rem; }
-.HeadingOneLight {
+.HeadingOneInverted {
 	font-weight: 300;
 	font-size: 96rem;
 	letter-spacing: -1.5rem;
-	color: var(--text-color-light); }
+	color: var(--text-color-inverted); }
 .HeadingTwo {
 	font-weight: 300;
 	font-size: 60rem;
 	letter-spacing: -0.5rem; }
-.HeadingTwoLight {
+.HeadingTwoInverted {
 	font-weight: 300;
 	font-size: 60rem;
 	letter-spacing: -0.5rem;
-	color: var(--text-color-light); }
+	color: var(--text-color-inverted); }
 .HeadingThree {
 	font-size: 48rem;
 	letter-spacing: 0; }
-.HeadingThreeLight {
+.HeadingThreeInverted {
 	font-size: 48rem;
 	letter-spacing: 0;
-	color: var(--text-color-light); }
+	color: var(--text-color-inverted); }
 .HeadingFour {
 	font-size: 34rem;
 	letter-spacing: 0.25rem; }
-.HeadingFourLight {
+.HeadingFourInverted {
 	font-size: 34rem;
 	letter-spacing: 0.25rem;
-	color: var(--text-color-light); }
+	color: var(--text-color-inverted); }
 .HeadingFive {
 	font-size: 24rem;
 	letter-spacing: 0; }
-.HeadingFiveLight {
+.HeadingFiveInverted {
 	font-size: 24rem;
 	letter-spacing: 0;
-	color: var(--text-color-light); }
+	color: var(--text-color-inverted); }
 .HeadingSix {
 	font-size: 20rem;
 	font-weight: 500;
 	letter-spacing: 0.15rem; }
-.HeadingSixLight {
+.HeadingSixInverted {
 	font-size: 20rem;
 	font-weight: 500;
-	letter-spacing: 0.15rem; }
+	letter-spacing: 0.15rem;
+	color: var(--text-color-inverted); }
 .BodyOne {
 	font-size: 16rem;
 	letter-spacing: 0.5rem; }
