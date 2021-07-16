@@ -335,89 +335,111 @@ a:hover {
 	justify-content: flex-end; }
 
 .HeadingOne {
+	overflow: hidden;
 	font-weight: 300;
 	font-size: 96rem;
 	letter-spacing: -1.5rem; }
 .HeadingOneInverted {
+	overflow: hidden;
 	font-weight: 300;
 	font-size: 96rem;
 	letter-spacing: -1.5rem;
 	color: var(--text-color-inverted); }
 .HeadingTwo {
+	overflow: hidden;
 	font-weight: 300;
 	font-size: 60rem;
 	letter-spacing: -0.5rem; }
 .HeadingTwoInverted {
+	overflow: hidden;
 	font-weight: 300;
 	font-size: 60rem;
 	letter-spacing: -0.5rem;
 	color: var(--text-color-inverted); }
 .HeadingThree {
+	overflow: hidden;
 	font-size: 48rem;
 	letter-spacing: 0; }
 .HeadingThreeInverted {
+	overflow: hidden;
 	font-size: 48rem;
 	letter-spacing: 0;
 	color: var(--text-color-inverted); }
 .HeadingFour {
+	overflow: hidden;
 	font-size: 34rem;
 	letter-spacing: 0.25rem; }
 .HeadingFourInverted {
+	overflow: hidden;
 	font-size: 34rem;
 	letter-spacing: 0.25rem;
 	color: var(--text-color-inverted); }
 .HeadingFive {
+	overflow: hidden;
 	font-size: 24rem;
 	letter-spacing: 0; }
 .HeadingFiveInverted {
+	overflow: hidden;
 	font-size: 24rem;
 	letter-spacing: 0;
 	color: var(--text-color-inverted); }
 .HeadingSix {
+	overflow: hidden;
 	font-size: 20rem;
 	font-weight: 500;
 	letter-spacing: 0.15rem; }
 .HeadingSixInverted {
+	overflow: hidden;
 	font-size: 20rem;
 	font-weight: 500;
 	letter-spacing: 0.15rem;
 	color: var(--text-color-inverted); }
 .BodyOne {
+	overflow: hidden;
 	font-size: 16rem;
 	letter-spacing: 0.5rem; }
 .BodyOneBold {
+	overflow: hidden;
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
 	font-weight: var(--bold); }
 .BodyOneLight {
+	overflow: hidden;
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
 	color: var(--text-color-light); }
 .BodyOneInverted {
+	overflow: hidden;
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
 	color: var(--text-color-inverted); }
 .BodyOneBoldLight {
+	overflow: hidden;
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
 	font-weight: var(--bold);
 	color: var(--text-color-light); }
 .BodyTwo {
+	overflow: hidden;
 	font-size: 14rem;
 	letter-spacing: 0.25rem; }
 .BodyTwoBold {
+	overflow: hidden;
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
 	font-weight: var(--bold); }
 .BodyTwoLight {
+	overflow: hidden;
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
 	color: var(--text-color-light); }
 .BodyTwoInverted {
+	overflow: hidden;
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
 	color: var(--text-color-inverted); }
 .BodyTwoBoldLight {
+	overflow: hidden;
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
 	font-weight: var(--bold);
