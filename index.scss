@@ -136,9 +136,9 @@ a:hover {
 		background-color: var(--hover-color); } }
 
 .ItemBorder {
-	border-right-width: var(--border-width);
-	border-right-style: var(--border-style);
-	border-right-color: var(--border-color);
+	border-bottom-width: var(--border-width);
+	border-bottom-style: var(--border-style);
+	border-bottom-color: var(--border-color);
 	&:last-child {
 		border-bottom: 0; } }
 
@@ -343,135 +343,91 @@ a:hover {
 .HeadingOne {
 	font-size: 96rem;
 	font-weight: 300;
-	letter-spacing: -1.5rem;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: -1.5rem; }
 .HeadingOneInverted {
 	font-weight: 300;
 	font-size: 96rem;
 	letter-spacing: -1.5rem;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .HeadingTwo {
 	font-weight: 300;
 	font-size: 60rem;
-	letter-spacing: -0.5rem;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: -0.5rem; }
 .HeadingTwoInverted {
 	font-weight: 300;
 	font-size: 60rem;
 	letter-spacing: -0.5rem;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .HeadingThree {
 	font-size: 48rem;
-	letter-spacing: 0;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: 0; }
 .HeadingThreeInverted {
 	font-size: 48rem;
 	letter-spacing: 0;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .HeadingFour {
 	font-size: 34rem;
-	letter-spacing: 0.25rem;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: 0.25rem; }
 .HeadingFourInverted {
 	font-size: 34rem;
 	letter-spacing: 0.25rem;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .HeadingFive {
 	font-size: 24rem;
-	letter-spacing: 0;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: 0; }
 .HeadingFiveInverted {
 	font-size: 24rem;
 	letter-spacing: 0;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .HeadingSix {
 	font-size: 20rem;
 	font-weight: 500;
-	letter-spacing: 0.15rem;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: 0.15rem; }
 .HeadingSixInverted {
 	font-size: 20rem;
 	font-weight: 500;
 	letter-spacing: 0.15rem;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .BodyOne {
 	font-size: 16rem;
-	letter-spacing: 0.5rem;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: 0.5rem; }
 .BodyOneBold {
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
-	font-weight: var(--bold);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	font-weight: var(--bold); }
 .BodyOneLight {
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
-	color: var(--text-color-light);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-light); }
 .BodyOneInverted {
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .BodyOneBoldLight {
 	font-size: 16rem;
 	letter-spacing: 0.5rem;
 	font-weight: var(--bold);
-	color: var(--text-color-light);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-light); }
 .BodyTwo {
 	font-size: 14rem;
-	letter-spacing: 0.25rem;
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	letter-spacing: 0.25rem; }
 .BodyTwoBold {
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
-	font-weight: var(--bold);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	font-weight: var(--bold); }
 .BodyTwoLight {
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
-	color: var(--text-color-light);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-light); }
 .BodyTwoInverted {
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
-	color: var(--text-color-inverted);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-inverted); }
 .BodyTwoBoldLight {
 	font-size: 14rem;
 	letter-spacing: 0.25rem;
 	font-weight: var(--bold);
-	color: var(--text-color-light);
-	&::-webkit-scrollbar {
-		visibility: hidden; } }
+	color: var(--text-color-light); }
 
 .Border {
 	border-width: var(--border-width);
