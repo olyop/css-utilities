@@ -136,7 +136,9 @@ a:hover {
 		background-color: var(--hover-color); } }
 
 .ItemBorder {
-	border-bottom: 1rem solid var(--border-color);
+	border-right-width: var(--border-width);
+	border-right-style: var(--border-style);
+	border-right-color: var(--border-color);
 	&:last-child {
 		border-bottom: 0; } }
 
@@ -264,6 +266,10 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	gap: var(--space-half); }
+.FlexColumnGapQuart {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-quart); }
 .FlexList {
 	display: flex;
 	align-items: center; }
@@ -335,77 +341,77 @@ a:hover {
 	justify-content: flex-end; }
 
 .HeadingOne {
-	overflow: hidden;
-	font-weight: 300;
 	font-size: 96rem;
+	font-weight: 300;
+	overflow-x: hidden;
 	letter-spacing: -1.5rem; }
 .HeadingOneInverted {
-	overflow: hidden;
 	font-weight: 300;
 	font-size: 96rem;
+	overflow-x: hidden;
 	letter-spacing: -1.5rem;
 	color: var(--text-color-inverted); }
 .HeadingTwo {
-	overflow: hidden;
 	font-weight: 300;
 	font-size: 60rem;
+	overflow-x: hidden;
 	letter-spacing: -0.5rem; }
 .HeadingTwoInverted {
-	overflow: hidden;
 	font-weight: 300;
 	font-size: 60rem;
+	overflow-x: hidden;
 	letter-spacing: -0.5rem;
 	color: var(--text-color-inverted); }
 .HeadingThree {
-	overflow: hidden;
-	font-size: 48rem;
-	letter-spacing: 0; }
-.HeadingThreeInverted {
-	overflow: hidden;
 	font-size: 48rem;
 	letter-spacing: 0;
+	overflow-x: hidden; }
+.HeadingThreeInverted {
+	font-size: 48rem;
+	letter-spacing: 0;
+	overflow-x: hidden;
 	color: var(--text-color-inverted); }
 .HeadingFour {
-	overflow: hidden;
 	font-size: 34rem;
+	overflow-x: hidden;
 	letter-spacing: 0.25rem; }
 .HeadingFourInverted {
-	overflow: hidden;
 	font-size: 34rem;
+	overflow-x: hidden;
 	letter-spacing: 0.25rem;
 	color: var(--text-color-inverted); }
 .HeadingFive {
-	overflow: hidden;
-	font-size: 24rem;
-	letter-spacing: 0; }
-.HeadingFiveInverted {
-	overflow: hidden;
 	font-size: 24rem;
 	letter-spacing: 0;
+	overflow-x: hidden; }
+.HeadingFiveInverted {
+	font-size: 24rem;
+	letter-spacing: 0;
+	overflow-x: hidden;
 	color: var(--text-color-inverted); }
 .HeadingSix {
-	overflow: hidden;
 	font-size: 20rem;
 	font-weight: 500;
+	overflow-x: hidden;
 	letter-spacing: 0.15rem; }
 .HeadingSixInverted {
-	overflow: hidden;
 	font-size: 20rem;
 	font-weight: 500;
+	overflow-x: hidden;
 	letter-spacing: 0.15rem;
 	color: var(--text-color-inverted); }
 .BodyOne {
-	overflow: hidden;
 	font-size: 16rem;
+	overflow-x: hidden;
 	letter-spacing: 0.5rem; }
 .BodyOneBold {
-	overflow: hidden;
 	font-size: 16rem;
+	overflow-x: hidden;
 	letter-spacing: 0.5rem;
 	font-weight: var(--bold); }
 .BodyOneLight {
-	overflow: hidden;
 	font-size: 16rem;
+	overflow-x: hidden;
 	letter-spacing: 0.5rem;
 	color: var(--text-color-light); }
 .BodyOneInverted {
@@ -414,33 +420,33 @@ a:hover {
 	letter-spacing: 0.5rem;
 	color: var(--text-color-inverted); }
 .BodyOneBoldLight {
-	overflow: hidden;
 	font-size: 16rem;
+	overflow-x: hidden;
 	letter-spacing: 0.5rem;
 	font-weight: var(--bold);
 	color: var(--text-color-light); }
 .BodyTwo {
-	overflow: hidden;
 	font-size: 14rem;
+	overflow-x: hidden;
 	letter-spacing: 0.25rem; }
 .BodyTwoBold {
-	overflow: hidden;
 	font-size: 14rem;
+	overflow-x: hidden;
 	letter-spacing: 0.25rem;
 	font-weight: var(--bold); }
 .BodyTwoLight {
-	overflow: hidden;
 	font-size: 14rem;
+	overflow-x: hidden;
 	letter-spacing: 0.25rem;
 	color: var(--text-color-light); }
 .BodyTwoInverted {
-	overflow: hidden;
 	font-size: 14rem;
+	overflow-x: hidden;
 	letter-spacing: 0.25rem;
 	color: var(--text-color-inverted); }
 .BodyTwoBoldLight {
-	overflow: hidden;
 	font-size: 14rem;
+	overflow-x: hidden;
 	letter-spacing: 0.25rem;
 	font-weight: var(--bold);
 	color: var(--text-color-light); }
