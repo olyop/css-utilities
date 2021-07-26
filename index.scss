@@ -145,6 +145,12 @@ a:hover {
 .UpperCase {
 	text-transform: uppercase; }
 
+.LightColor {
+	color: var(--text-color-light); }
+
+.LightWeight {
+	font-weight: 400; }
+
 .FullWidthAndHeight {
 	width: 100%;
 	height: 100%; }
