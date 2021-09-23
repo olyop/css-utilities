@@ -86,15 +86,17 @@ a:hover {
 	height: 100vh; }
 
 .Content {
-	width: 1300rem;
-	margin-left: auto;
-	margin-right: auto; }
-
-@media (max-width: 1360px) {
-	.Content {
+	@media (min-width: 1360px) {
+		width: 1300rem;
+		margin-left: auto;
+		margin-right: auto; }
+	@media (max-width: 1360px) {
 		width: auto;
 		margin-left: var(--space);
-		margin-right: var(--space); } }
+		margin-right: var(--space); }
+	@media (max-width: 500px) {
+		margin-left: var(--space-half);
+		margin-right: var(--space-half); } }
 
 .Elevated {
 	box-shadow:
