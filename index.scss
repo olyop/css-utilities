@@ -96,10 +96,7 @@ a:hover {
 		margin-right: var(--space); }
 	@media (max-width: 750px) {
 		margin-left: var(--space-half);
-		margin-right: var(--space-half); }
-	@media (max-width: 500px) {
-		margin-left: 0;
-		margin-right: 0; } }
+		margin-right: var(--space-half); } }
 
 .Elevated {
 	box-shadow:
