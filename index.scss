@@ -33,6 +33,7 @@
 	--font-size: 16rem;
 	--border-width: 1rem;
 	--border-radius: 5rem;
+	--font-family: "Roboto";
 	--button-dimension: 40rem;
 
 	--border-style: solid;
@@ -53,9 +54,9 @@
 html {
 	font-size: 1px;
 	line-height: 1;
-	font-family: "Roboto";
 	box-sizing: border-box;
 	color: var(--text-color);
+	font-family: var(--font-family);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased; }
 
