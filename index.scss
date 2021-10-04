@@ -109,15 +109,15 @@ a:hover {
 
 .Elevated {
 	box-shadow:
-		0 0 4rem rgba(var(--grey-color-900), 0.14),
-		0 0 3rem -2rem rgba(var(--grey-color-900), 0.12),
-		0 0 8rem rgba(var(--grey-color-900), 0.2);
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
 	background-color: var(--elevated-color); }
 .ElevatedRounded {
 	box-shadow:
-		0 0 4rem rgba(var(--grey-color-900), 0.14),
-		0 0 3rem -2rem rgba(var(--grey-color-900), 0.12),
-		0 0 8rem rgba(var(--grey-color-900), 0.2);
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
 	border-radius: var(--border-radius);
 	background-color: var(--elevated-color); }
 
@@ -131,14 +131,14 @@ a:hover {
 	background-color: var(--elevated-color);
 	transition-duration: var(--transition-duration);
 	box-shadow:
-		0 0 4rem rgba(var(--grey-color-900), 0.14),
-		0 0 3rem -2rem rgba(var(--grey-color-900), 0.12),
-		0 0 8rem rgba(var(--grey-color-900), 0.2);
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
 	&:hover {
 		box-shadow:
-			0 0 10rem rgba(var(--grey-color-900), 0.14),
-			0 0 18rem rgba(var(--grey-color-900), 0.12),
-			0 0 5rem -1rem rgba(var(--grey-color-900), 0.2); } }
+			0 0 10rem rgba(#212121, 0.14),
+			0 0 18rem rgba(#212121, 0.12),
+			0 0 5rem -1rem rgba(#212121, 0.2); } }
 
 .Hover {
 	cursor: pointer;
