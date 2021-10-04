@@ -1,6 +1,4 @@
 @charset "utf-8";
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400,500,700,700i&display=swap");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 @media (max-width: 500px) {
 	:root {
@@ -10,30 +8,40 @@
 		--font-size: 0.8px; } }
 
 :root {
-	--text-color: #333;
-	--text-color-light: #757575;
-	--text-color-inverted: #fafafa;
+	--white-color: #fff;
+	--black-color: #000;
 
-	--hover-color: #eee;
-	--elevated-color: #fff;
-	--border-color: #e0e0e0;
-	--background-color: #fafafa;
+	--grey-color-50: #fafafa;
+	--grey-color-100: #f5f5f5;
+	--grey-color-200: #eee;
+	--grey-color-300: #e0e0e0;
+	--grey-color-400: #bdbdbd;
+	--grey-color-500: #9e9e9e;
+	--grey-color-600: #757575;
+	--grey-color-700: #616161;
+	--grey-color-800: #424242;
+	--grey-color-900: #212121;
 
-	--primary-color: #546e7a;
-	--primary-color-text: #fafafa;
-	--primary-color-dark: #29434e;
-	--primary-color-light: #819ca9;
+	--primary-color: #f4511e;
+	--primary-color-dark: #b91400;
+	--primary-color-light: #ff844c;
+	--primary-color-text: var(--grey-color-50);
 
-	--secondary-color: #f4511e;
-	--secondary-color-text: #fafafa;
-	--secondary-color-dark: #b91400;
-	--secondary-color-light: #ff844c;
+	--text-color: var(--grey-color-900);
+	--text-color-light: var(--grey-color-600);
+	--text-color-inverted: var(--grey-color-50);
+
+	--hover-color: var(--grey-color-200);
+	--elevated-color: var(--white-color);
+	--border-color: var(--grey-color-300);
+	--background-color: var(--grey-color-50);
 
 	--bold: 600;
+	--line-height: 1;
 	--font-size: 16rem;
 	--border-width: 1rem;
 	--border-radius: 5rem;
-	--font-family: "Roboto";
+	--box-sizing: border-box;
 	--button-dimension: 40rem;
 
 	--border-style: solid;
@@ -53,9 +61,9 @@
 
 html {
 	font-size: 1px;
-	line-height: 1;
-	box-sizing: border-box;
 	color: var(--text-color);
+	box-sizing: var(--box-sizing);
+	line-height: var(--line-height);
 	font-family: var(--font-family);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased; }
@@ -101,15 +109,15 @@ a:hover {
 
 .Elevated {
 	box-shadow:
-		0 0 4rem rgba(#212121, 0.14),
-		0 0 3rem -2rem rgba(#212121, 0.12),
-		0 0 8rem rgba(#212121, 0.2);
+		0 0 4rem rgba(var(--grey-color-900), 0.14),
+		0 0 3rem -2rem rgba(var(--grey-color-900), 0.12),
+		0 0 8rem rgba(var(--grey-color-900), 0.2);
 	background-color: var(--elevated-color); }
 .ElevatedRounded {
 	box-shadow:
-		0 0 4rem rgba(#212121, 0.14),
-		0 0 3rem -2rem rgba(#212121, 0.12),
-		0 0 8rem rgba(#212121, 0.2);
+		0 0 4rem rgba(var(--grey-color-900), 0.14),
+		0 0 3rem -2rem rgba(var(--grey-color-900), 0.12),
+		0 0 8rem rgba(var(--grey-color-900), 0.2);
 	border-radius: var(--border-radius);
 	background-color: var(--elevated-color); }
 
@@ -123,14 +131,14 @@ a:hover {
 	background-color: var(--elevated-color);
 	transition-duration: var(--transition-duration);
 	box-shadow:
-		0 0 4rem rgba(#212121, 0.14),
-		0 0 3rem -2rem rgba(#212121, 0.12),
-		0 0 8rem rgba(#212121, 0.2);
+		0 0 4rem rgba(var(--grey-color-900), 0.14),
+		0 0 3rem -2rem rgba(var(--grey-color-900), 0.12),
+		0 0 8rem rgba(var(--grey-color-900), 0.2);
 	&:hover {
 		box-shadow:
-			0 0 10rem rgba(#212121, 0.14),
-			0 0 18rem rgba(#212121, 0.12),
-			0 0 5rem -1rem rgba(#212121, 0.2); } }
+			0 0 10rem rgba(var(--grey-color-900), 0.14),
+			0 0 18rem rgba(var(--grey-color-900), 0.12),
+			0 0 5rem -1rem rgba(var(--grey-color-900), 0.2); } }
 
 .Hover {
 	cursor: pointer;
@@ -147,6 +155,9 @@ a:hover {
 
 .UpperCase {
 	text-transform: uppercase; }
+
+.LowerCase {
+	text-transform: lowercase; }
 
 .LightColor {
 	color: var(--text-color-light); }
@@ -172,50 +183,66 @@ a:hover {
 	padding: var(--space-quart); }
 .PaddingFifth {
 	padding: var(--space-fifth); }
+
 .PaddingTopBottomDouble {
-	padding: var(--space) 0; }
+	padding: var(--space-double) 0; }
 .PaddingTopBottom {
 	padding: var(--space) 0; }
 .PaddingTopBottomHalf {
 	padding: var(--space-half) 0; }
 .PaddingTopBottomQuart {
 	padding: var(--space-quart) 0; }
+
+.PaddingLeftRightDouble {
+	padding: 0 var(--space-double); }
 .PaddingLeftRight {
 	padding: 0 var(--space); }
 .PaddingLeftRightHalf {
 	padding: 0 var(--space-half); }
 .PaddingLeftRightQuart {
 	padding: 0 var(--space-quart); }
+
 .PaddingTopDouble {
 	padding-top: var(--space-double); }
+.PaddingTopOneHalf {
+	padding-top: var(--space-one-half); }
 .PaddingTop {
 	padding-top: var(--space); }
-.PaddingRightDouble {
-	padding-right: var(--space-double); }
-.PaddingRight {
-	padding-right: var(--space); }
-.PaddingBottomDouble {
-	padding-bottom: var(--space-double); }
-.PaddingBottom {
-	padding-bottom: var(--space); }
-.PaddingLeftDouble {
-	padding-left: var(--space-double); }
-.PaddingLeft {
-	padding-left: var(--space); }
 .PaddingTopHalf {
 	padding-top: var(--space-half); }
-.PaddingRightHalf {
-	padding-right: var(--space-half); }
-.PaddingBottomHalf {
-	padding-bottom: var(--space-half); }
-.PaddingLeftHalf {
-	padding-left: var(--space-half); }
 .PaddingTopQuart {
 	padding-top: var(--space-quart); }
+
+.PaddingRightDouble {
+	padding-right: var(--space-double); }
+.PaddingRightOneHalf {
+	padding-right: var(--space-one-half); }
+.PaddingRight {
+	padding-right: var(--space); }
+.PaddingRightHalf {
+	padding-right: var(--space-half); }
 .PaddingRightQuart {
 	padding-right: var(--space-quart); }
+
+.PaddingBottomDouble {
+	padding-bottom: var(--space-double); }
+.PaddingBottomOneHalf {
+	padding-bottom: var(--space-one-half); }
+.PaddingBottom {
+	padding-bottom: var(--space); }
+.PaddingBottomHalf {
+	padding-bottom: var(--space-half); }
 .PaddingBottomQuart {
 	padding-bottom: var(--space-quart); }
+
+.PaddingLeftDouble {
+	padding-left: var(--space-double); }
+.PaddingLeftOneHalf {
+	padding-left: var(--space-one-half); }
+.PaddingLeft {
+	padding-left: var(--space); }
+.PaddingLeftHalf {
+	padding-left: var(--space-half); }
 .PaddingLeftQuart {
 	padding-left: var(--space-quart); }
 
@@ -231,42 +258,68 @@ a:hover {
 	margin: var(--space-half); }
 .MarginQuart {
 	margin: var(--space-quart); }
+.MarginFifth {
+	margin: var(--space-fifth); }
+
 .MarginTopBottomDouble {
-	padding: var(--space) 0; }
+	margin: var(--space-double) 0; }
 .MarginTopBottom {
 	margin: var(--space) 0; }
 .MarginTopBottomHalf {
 	margin: var(--space-half) 0; }
 .MarginTopBottomQuart {
 	margin: var(--space-quart) 0; }
+
+.MarginLeftRightDouble {
+	margin: 0 var(--space-double); }
 .MarginLeftRight {
 	margin: 0 var(--space); }
 .MarginLeftRightHalf {
 	margin: 0 var(--space-half); }
 .MarginLeftRightQuart {
 	margin: 0 var(--space-quart); }
+
+.MarginTopDouble {
+	margin-top: var(--space-double); }
+.MarginTopOneHalf {
+	margin-top: var(--space-one-half); }
 .MarginTop {
 	margin-top: var(--space); }
-.MarginRight {
-	margin-right: var(--space); }
-.MarginBottom {
-	margin-bottom: var(--space); }
-.MarginLeft {
-	margin-left: var(--space); }
 .MarginTopHalf {
 	margin-top: var(--space-half); }
-.MarginRightHalf {
-	margin-right: var(--space-half); }
-.MarginBottomHalf {
-	margin-bottom: var(--space-half); }
-.MarginLeftHalf {
-	margin-left: var(--space-half); }
 .MarginTopQuart {
 	margin-top: var(--space-quart); }
+
+.MarginRightDouble {
+	margin-right: var(--space-double); }
+.MarginRightOneHalf {
+	margin-right: var(--space-one-half); }
+.MarginRight {
+	margin-right: var(--space); }
+.MarginRightHalf {
+	margin-right: var(--space-half); }
 .MarginRightQuart {
 	margin-right: var(--space-quart); }
+
+.MarginBottomDouble {
+	margin-bottom: var(--space-double); }
+.MarginBottomOneHalf {
+	margin-bottom: var(--space-one-half); }
+.MarginBottom {
+	margin-bottom: var(--space); }
+.MarginBottomHalf {
+	margin-bottom: var(--space-half); }
 .MarginBottomQuart {
 	margin-bottom: var(--space-quart); }
+
+.MarginLeftDouble {
+	margin-left: var(--space-double); }
+.MarginLeftOneHalf {
+	margin-left: var(--space-one-half); }
+.MarginLeft {
+	margin-left: var(--space); }
+.MarginLeftHalf {
+	margin-left: var(--space-half); }
 .MarginLeftQuart {
 	margin-left: var(--space-quart); }
 
