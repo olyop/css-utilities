@@ -57,16 +57,7 @@
 	--space-three-quart: calc(var(--space) * 0.75);
 	--space-half: calc(var(--space) * 0.5);
 	--space-quart: calc(var(--space) * 0.25);
-	--space-fifth: calc(var(--space) * 0.2);
-
-	@media (max-width: 1000px) {
-		--space: 18rem; }
-
-	@media (max-width: 800px) {
-		--space: 16rem; }
-
-	@media (max-width: 700px) {
-		--space: 14rem; } }
+	--space-fifth: calc(var(--space) * 0.2); }
 
 html {
 	font-size: 1px;
@@ -75,7 +66,11 @@ html {
 	line-height: var(--line-height);
 	font-family: var(--font-family);
 	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased; }
+	-webkit-font-smoothing: antialiased;
+	@media (max-width: 1000px) {
+		font-size: 0.8px; }
+	@media (max-width: 800px) {
+		font-size: 0.7px; } }
 
 *,
 *::after,
