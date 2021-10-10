@@ -96,7 +96,9 @@ a:hover {
 
 #Root {
 	width: 100vw;
-	height: 100vh; }
+	margin-top: env(safe-area-inset-top);
+	margin-bottom: env(safe-area-inset-bottom);
+	height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
 
 .Content {
 	@media (min-width: 1360px) {
