@@ -57,7 +57,16 @@
 	--space-three-quart: calc(var(--space) * 0.75);
 	--space-half: calc(var(--space) * 0.5);
 	--space-quart: calc(var(--space) * 0.25);
-	--space-fifth: calc(var(--space) * 0.2); }
+	--space-fifth: calc(var(--space) * 0.2);
+
+	@media (max-width: 1000px) {
+		--space: 18rem; }
+
+	@media (max-width: 800px) {
+		--space: 16rem; }
+
+	@media (max-width: 700px) {
+		--space: 14rem; } }
 
 html {
 	font-size: 1px;
@@ -81,9 +90,11 @@ html {
 	font-family: inherit;
 	line-height: inherit; }
 
-a {
+a,
+button {
 	text-decoration: none; }
-a:hover {
+a:hover,
+button:hover {
 	text-decoration: none; }
 a:focus {
 	text-decoration: none; }
