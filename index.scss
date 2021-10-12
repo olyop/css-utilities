@@ -88,17 +88,25 @@ button {
 	text-decoration: none; }
 a:hover,
 button:hover {
-	text-decoration: none; }
-a:focus {
-	text-decoration: none; }
-a:hover {
-	text-decoration: none; }
+	text-decoration: none;
+	background-color: transparent; }
+a:focus,
+button:focus {
+	text-decoration: none;
+	background-color: transparent; }
+a:hover,
+button:focus {
+	text-decoration: none;
+	background-color: transparent; }
 
 #Root {
 	width: 100vw;
 	margin-top: env(safe-area-inset-top);
 	margin-bottom: env(safe-area-inset-bottom);
 	height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
+
+.OverflowHidden {
+	overflow: hidden; }
 
 .Content {
 	@media (min-width: 1360px) {
