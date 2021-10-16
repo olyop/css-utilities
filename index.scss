@@ -104,10 +104,8 @@ button:focus {
 
 #Root {
 	width: 100vw;
-	overflow: hidden;
-	margin-top: env(safe-area-inset-top);
-	margin-bottom: env(safe-area-inset-bottom);
-	height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
+	height: 100vh;
+	overflow: hidden; }
 
 .OverflowHidden {
 	overflow: hidden; }
