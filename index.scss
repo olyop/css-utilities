@@ -373,75 +373,75 @@ button:focus {
 	display: flex;
 	flex-direction: column;
 	gap: var(--space-quart); }
-.FlexList {
+.FlexRow {
 	display: flex;
 	align-items: center; }
-.FlexListGapHalfCenter {
+.FlexRowGapHalfCenter {
 	display: flex;
 	align-items: center;
 	justify-content: center; }
-.FlexListSpaceEvenly {
+.FlexRowSpaceEvenly {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly; }
-.FlexListSpaceAround {
+.FlexRowSpaceAround {
 	display: flex;
 	align-items: center;
 	justify-content: space-around; }
-.FlexListSpaceBetween {
+.FlexRowSpaceBetween {
 	display: flex;
 	align-items: center;
 	justify-content: space-between; }
-.FlexListGap {
+.FlexRowGap {
 	display: flex;
 	gap: var(--space);
 	align-items: center; }
-.FlexListGapHalf {
+.FlexRowGapHalf {
 	display: flex;
 	align-items: center;
 	gap: var(--space-half); }
-.FlexListGapQuart {
+.FlexRowGapQuart {
 	display: flex;
 	align-items: center;
 	gap: var(--space-quart); }
-.FlexListGapFifth {
+.FlexRowGapFifth {
 	display: flex;
 	align-items: center;
 	gap: var(--space-fifth); }
-.FlexListCenter {
+.FlexRowCenter {
 	display: flex;
 	align-items: center;
 	justify-content: center; }
-.FlexListGapCenter {
+.FlexRowGapCenter {
 	display: flex;
 	gap: var(--space);
 	align-items: center;
 	justify-content: center; }
-.FlexListGapHalfCenter {
+.FlexRowGapHalfCenter {
 	display: flex;
 	align-items: center;
 	gap: var(--space-half);
 	justify-content: center; }
-.FlexListGapQuartCenter {
+.FlexRowGapQuartCenter {
 	display: flex;
 	align-items: center;
 	gap: var(--space-half);
 	justify-content: center; }
-.FlexListRight {
+.FlexRowRight {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end; }
-.FlexListRightGap {
+.FlexRowRightGap {
 	display: flex;
 	gap: var(--space);
 	align-items: center;
 	justify-content: flex-end; }
-.FlexListRightGapHalf {
+.FlexRowRightGapHalf {
 	display: flex;
 	align-items: center;
 	gap: var(--space-half);
 	justify-content: flex-end; }
-.FlexListRightGapQuart {
+.FlexRowRightGapQuart {
 	display: flex;
 	align-items: center;
 	gap: var(--space-quart);
