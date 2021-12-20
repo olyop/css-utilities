@@ -27,6 +27,8 @@
 	--primary-color-light: #ff844c;
 	--primary-color-text: var(--grey-color-50);
 
+	--error-color: #f44336;
+
 	--text-color: var(--grey-color-900);
 	--text-color-light: var(--grey-color-600);
 	--text-color-inverted: var(--grey-color-50);
@@ -173,6 +175,9 @@ button:focus {
 
 .LightWeight {
 	font-weight: 400; }
+
+.Error {
+	color: var(--error-color); }
 
 .FullWidthAndHeight {
 	width: 100%;
