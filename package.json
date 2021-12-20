@@ -28,7 +28,7 @@
 	"devDependencies": {
 		"@oly_op/stylelint-config": "2.0.4",
 		"del-cli": "4.0.1",
-		"sass": "1.44.0",
+		"sass": "1.45.0",
 		"stylelint": "14.1.0"
 	}
 }

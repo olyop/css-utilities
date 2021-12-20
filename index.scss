@@ -39,12 +39,15 @@
 	--bold: 600;
 	--line-height: 1;
 	--font-size: 16rem;
+	--box-sizing: border-box;
+
+	--button-dimension: 36rem;
+	--button-dimension-icon: 24rem;
+
 	--border-width: 1rem;
 	--border-radius: 5rem;
-	--box-sizing: border-box;
-	--button-dimension: 36rem;
-
 	--border-style: solid;
+
 	--transition-duration: 0.2s;
 
 	--space-quad: calc(var(--space) * 4);
@@ -125,13 +128,6 @@ button:focus {
 		0 0 4rem rgba(#212121, 0.14),
 		0 0 3rem -2rem rgba(#212121, 0.12),
 		0 0 8rem rgba(#212121, 0.2);
-	background-color: var(--elevated-color); }
-.ElevatedRounded {
-	box-shadow:
-		0 0 4rem rgba(#212121, 0.14),
-		0 0 3rem -2rem rgba(#212121, 0.12),
-		0 0 8rem rgba(#212121, 0.2);
-	border-radius: var(--border-radius);
 	background-color: var(--elevated-color); }
 
 .Rounded {
@@ -495,6 +491,7 @@ button:focus {
 	font-weight: 500;
 	letter-spacing: 0.15rem;
 	color: var(--text-color-inverted); }
+
 .BodyOne {
 	font-size: 16rem;
 	letter-spacing: 0.5rem; }
