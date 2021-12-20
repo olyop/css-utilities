@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.0.58",
+	"version": "2.0.59",
 	"main": "index.css",
 	"description": "css-utilities",
 	"name": "@oly_op/css-utilities",
