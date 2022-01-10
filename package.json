@@ -18,10 +18,11 @@
 		"index.css"
 	],
 	"scripts": {
+		"init": "clear",
 		"postpublish": "npm run push",
-		"delete-build": "npx del-cli index.css",
+		"prebuild": "npx del-cli index.css",
 		"build": "sass index.scss index.css --no-source-map",
-		"prepublishOnly": "npm run delete-build && npm run build",
+		"prepublishOnly": "npm run init && npm run build",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git commit -a -m \"Update\" && git push -u origin master"
 	},
@@ -29,6 +30,7 @@
 		"@oly_op/stylelint-config": "2.0.4",
 		"del-cli": "4.0.1",
 		"sass": "1.47.0",
-		"stylelint": "14.2.0"
+		"stylelint": "14.2.0",
+		"stylelint-scss": "4.1.0"
 	}
 }

@@ -1,13 +1,8 @@
 @charset "utf-8";
 
-@media (max-width: 500px) {
-	:root {
-		--font-size: 0.9px; } }
-@media (max-width: 400px) {
-	:root {
-		--font-size: 0.8px; } }
-
-:root {
+:root,
+*::after,
+*::before {
 	--white-color: #fff;
 	--black-color: #000;
 
@@ -63,6 +58,17 @@
 	--space-half: calc(var(--space) * 0.5);
 	--space-quart: calc(var(--space) * 0.25);
 	--space-fifth: calc(var(--space) * 0.2); }
+
+@media (max-width: 500px) {
+	:root,
+	*::after,
+	*::before {
+		--font-size: 0.9px; } }
+@media (max-width: 400px) {
+	:root,
+	*::after,
+	*::before {
+		--font-size: 0.8px; } }
 
 html {
 	font-size: 1px;
