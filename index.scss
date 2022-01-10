@@ -59,17 +59,6 @@
 	--space-quart: calc(var(--space) * 0.25);
 	--space-fifth: calc(var(--space) * 0.2); }
 
-@media (max-width: 500px) {
-	:root,
-	*::after,
-	*::before {
-		--font-size: 0.9px; } }
-@media (max-width: 400px) {
-	:root,
-	*::after,
-	*::before {
-		--font-size: 0.8px; } }
-
 html {
 	font-size: 1px;
 	color: var(--text-color);
@@ -78,6 +67,10 @@ html {
 	font-family: var(--font-family);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+	@media (max-width: 400px) {
+		font-size: 0.7px; }
+	@media (max-width: 500px) {
+		font-size: 0.8px; }
 	@media (max-width: 700px) {
 		font-size: 0.9px; } }
 
