@@ -67,11 +67,11 @@ html {
 	font-family: var(--font-family);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	@media (max-width: 400px) {
+	@media (min-width: 400px) {
 		font-size: 0.7px; }
-	@media (max-width: 500px) {
+	@media (min-width: 500px) {
 		font-size: 0.8px; }
-	@media (max-width: 700px) {
+	@media (min-width: 700px) {
 		font-size: 0.9px; } }
 
 *,
@@ -363,18 +363,37 @@ button:focus {
 .FlexColumn {
 	display: flex;
 	flex-direction: column; }
+.FlexColumnCenter {
+	display: flex;
+	align-items: center;
+	flex-direction: column; }
 .FlexColumnGap {
 	display: flex;
 	gap: var(--space);
 	flex-direction: column; }
+.FlexColumnCenterGap {
+	display: flex;
+	gap: var(--space);
+	align-items: center;
+	flex-direction: column; }
 .FlexColumnGapHalf {
 	display: flex;
-	flex-direction: column;
-	gap: var(--space-half); }
+	gap: var(--space-half);
+	flex-direction: column; }
+.FlexColumnCenterGapHalf {
+	display: flex;
+	align-items: center;
+	gap: var(--space-half);
+	flex-direction: column; }
 .FlexColumnGapQuart {
 	display: flex;
 	flex-direction: column;
 	gap: var(--space-quart); }
+.FlexColumnCenterGapQuart {
+	display: flex;
+	align-items: center;
+	gap: var(--space-quart);
+	flex-direction: column; }
 .FlexRow {
 	display: flex;
 	align-items: center; }
