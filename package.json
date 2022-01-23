@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.0.65",
+	"version": "2.0.66",
 	"main": "index.css",
 	"description": "css-utilities",
 	"name": "@oly_op/css-utilities",
@@ -22,7 +22,7 @@
 		"prebuild": "del index.css",
 		"build": "sass index.scss index.css --no-source-map",
 		"prepublishOnly": "npm run init && npm run build",
-		"postpublish": "npm run push",
+		"postpublish": "del index.css &&  npm run push",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git commit -a -m \"Update\" && git push -u origin master"
 	},
