@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.0.64",
+	"version": "2.0.65",
 	"main": "index.css",
 	"description": "css-utilities",
 	"name": "@oly_op/css-utilities",
@@ -29,7 +29,7 @@
 	"devDependencies": {
 		"@oly_op/stylelint-config": "2.0.4",
 		"del-cli": "4.0.1",
-		"sass": "1.47.0",
+		"sass": "1.49.0",
 		"stylelint": "14.2.0",
 		"stylelint-scss": "4.1.0"
 	}

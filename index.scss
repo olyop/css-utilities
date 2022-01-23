@@ -33,31 +33,28 @@
 	--border-color: var(--grey-color-300);
 	--background-color: var(--grey-color-50);
 
-	--bold: 600;
-	--line-height: 1;
-	--font-size: 16rem;
-	--box-sizing: border-box;
-
-	--button-dimension: 36rem;
-	--button-dimension-icon: 24rem;
-
-	--border-width: 1rem;
-	--border-radius: 5rem;
-	--border-style: solid;
-
-	--transition-duration: 0.2s;
-
+	--space: 20rem;
 	--space-quad: calc(var(--space) * 4);
 	--space-triple: calc(var(--space) * 3);
 	--space-double: calc(var(--space) * 2);
 	--space-one-three-quart: calc(var(--space) * 1.75);
 	--space-one-half: calc(var(--space) * 1.5);
 	--space-one-quart: calc(var(--space) * 1.25);
-	--space: 20rem;
 	--space-three-quart: calc(var(--space) * 0.75);
 	--space-half: calc(var(--space) * 0.5);
 	--space-quart: calc(var(--space) * 0.25);
-	--space-fifth: calc(var(--space) * 0.2); }
+	--space-fifth: calc(var(--space) * 0.2);
+
+	--bold: 600;
+	--line-height: 1;
+	--font-size: 16rem;
+
+	--border-width: 1rem;
+	--border-radius: 5rem;
+	--border-style: solid;
+
+	--box-sizing: border-box;
+	--transition-duration: 0.3s; }
 
 html {
 	font-size: 1px;
@@ -67,12 +64,16 @@ html {
 	font-family: var(--font-family);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	@media (min-width: 400px) {
-		font-size: 0.7px; }
-	@media (min-width: 500px) {
+	@media (max-width: 700px) {
+		font-size: 0.9px; }
+	@media (max-width: 500px) {
 		font-size: 0.8px; }
-	@media (min-width: 700px) {
-		font-size: 0.9px; } }
+	@media (max-width: 400px) {
+		font-size: 0.7px; }
+	@media (max-width: 350px) {
+		font-size: 0.6px; }
+	@media (max-width: 250px) {
+		font-size: 0.5px; } }
 
 *,
 *::after,
