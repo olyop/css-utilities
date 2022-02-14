@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.0.67",
+	"version": "2.0.68",
 	"main": "index.css",
 	"description": "css-utilities",
 	"name": "@oly_op/css-utilities",
@@ -27,10 +27,10 @@
 		"push": "git commit -a -m \"Update\" && git push -u origin master"
 	},
 	"devDependencies": {
-		"@oly_op/stylelint-config": "2.0.4",
+		"@oly_op/stylelint-config": "2.0.19",
 		"del-cli": "4.0.1",
-		"sass": "1.49.0",
-		"stylelint": "14.2.0",
+		"sass": "1.49.7",
+		"stylelint": "14.5.0",
 		"stylelint-scss": "4.1.0"
 	}
 }

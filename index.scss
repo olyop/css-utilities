@@ -84,9 +84,15 @@ html {
 	font-family: inherit;
 	line-height: inherit; }
 
+span {
+	display: inline-block; }
+
 a,
 button {
-	text-decoration: none; }
+	border: 0;
+	outline: none;
+	text-decoration: none;
+	background-color: transparent; }
 a:hover,
 button:hover {
 	outline: none;
@@ -154,21 +160,20 @@ button:focus {
 		background-color: var(--hover-color); } }
 
 .ItemBorder {
-	border-bottom-width: var(--border-width);
-	border-bottom-style: var(--border-style);
-	border-bottom-color: var(--border-color);
+	border-bottom:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color);
 	&:last-child {
 		border-bottom: 0; } }
 
 .UpperCase {
 	text-transform: uppercase; }
-
 .LowerCase {
 	text-transform: lowercase; }
 
 .LightColor {
 	color: var(--text-color-light); }
-
 .LightWeight {
 	font-weight: 400; }
 
@@ -348,12 +353,12 @@ button:focus {
 	margin-left: var(--space-one-half); }
 .MarginLeft {
 	margin-left: var(--space); }
-.MarginLeftQuart {
-	margin-left: var(--space-three-quart); }
+.MarginLeftThreeQuart {
+	margin-left: var(--space-quart); }
 .MarginLeftHalf {
 	margin-left: var(--space-half); }
 .MarginLeftQuart {
-	margin-left: var(--space-quart); }
+	margin-left: var(--space-three-quart); }
 
 .Flex {
 	display: flex; }
@@ -394,10 +399,6 @@ button:focus {
 .FlexRow {
 	display: flex;
 	align-items: center; }
-.FlexRowGapHalfCenter {
-	display: flex;
-	align-items: center;
-	justify-content: center; }
 .FlexRowSpaceEvenly {
 	display: flex;
 	align-items: center;
@@ -556,22 +557,27 @@ button:focus {
 	color: var(--text-color-light); }
 
 .Border {
-	border-width: var(--border-width);
-	border-style: var(--border-style);
-	border-color: var(--border-color); }
+	border:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
 .BorderTop {
-	border-top-width: var(--border-width);
-	border-top-style: var(--border-style);
-	border-top-color: var(--border-color); }
-.BorderRight {
-	border-right-width: var(--border-width);
-	border-right-style: var(--border-style);
-	border-right-color: var(--border-color); }
-.BorderBottom {
-	border-bottom-width: var(--border-width);
-	border-bottom-style: var(--border-style);
-	border-bottom-color: var(--border-color); }
+	border-top:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
 .BorderLeft {
-	border-left-width: var(--border-width);
-	border-left-style: var(--border-style);
-	border-left-color: var(--border-color); }
+	border-left:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
+.BorderRight {
+	border-right:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
+.BorderBottom {
+	border-bottom:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
