@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.0.68",
+	"version": "2.0.69",
 	"main": "index.css",
 	"description": "css-utilities",
 	"name": "@oly_op/css-utilities",
@@ -20,17 +20,17 @@
 	"scripts": {
 		"init": "clear",
 		"prebuild": "del index.css",
-		"build": "sass index.scss index.css --no-source-map",
+		"build": "sass src/index.scss index.css --no-source-map",
 		"prepublishOnly": "npm run init && npm run build",
 		"postpublish": "del index.css &&  npm run push",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git commit -a -m \"Update\" && git push -u origin master"
 	},
 	"devDependencies": {
-		"@oly_op/stylelint-config": "2.0.19",
+		"@oly_op/stylelint-config": "2.1.2",
 		"del-cli": "4.0.1",
-		"sass": "1.49.7",
-		"stylelint": "14.5.0",
-		"stylelint-scss": "4.1.0"
+		"sass": "1.53.0",
+		"stylelint": "14.9.1",
+		"stylelint-scss": "4.3.0"
 	}
 }
