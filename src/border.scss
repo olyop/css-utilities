@@ -1,0 +1,25 @@
+.Border {
+	border:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
+.BorderTop {
+	border-top:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
+.BorderLeft {
+	border-left:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
+.BorderRight {
+	border-right:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }
+.BorderBottom {
+	border-bottom:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color); }

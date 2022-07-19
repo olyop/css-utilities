@@ -24,7 +24,7 @@
 		"prepublishOnly": "npm run init && npm run build",
 		"postpublish": "del index.css &&  npm run push",
 		"sync": "git checkout . && git remote update && git pull",
-		"push": "git commit -a -m \"Update\" && git push -u origin master"
+		"push": "git add -A && git commit -m \"Update\" && git push -u origin master"
 	},
 	"devDependencies": {
 		"@oly_op/stylelint-config": "2.1.2",

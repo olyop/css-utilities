@@ -1,0 +1,58 @@
+.Content {
+	@media (min-width: 1360px) {
+		width: 1300px;
+		margin-left: auto;
+		margin-right: auto; }
+	@media (max-width: 1360px) {
+		width: auto;
+		margin-left: var(--space);
+		margin-right: var(--space); } }
+
+.ContentPaddingTopBottom {
+	padding-top: var(--space);
+	padding-bottom: var(--space);
+	@media (min-width: 1360px) {
+		width: 1300px;
+		margin-left: auto;
+		margin-right: auto; }
+	@media (max-width: 1360px) {
+		width: auto;
+		margin-left: var(--space);
+		margin-right: var(--space); } }
+
+.Elevated {
+	box-shadow:
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
+	background-color: var(--elevated-color); }
+
+.Card {
+	overflow: hidden;
+	transition-property: box-shadow;
+	border-radius: var(--border-radius);
+	background-color: var(--elevated-color);
+	transition-duration: var(--transition-duration);
+	box-shadow:
+		0 0 4rem rgba(#212121, 0.14),
+		0 0 3rem -2rem rgba(#212121, 0.12),
+		0 0 8rem rgba(#212121, 0.2);
+	&:hover {
+		box-shadow:
+			0 0 10rem rgba(#212121, 0.14),
+			0 0 18rem rgba(#212121, 0.12),
+			0 0 5rem -1rem rgba(#212121, 0.2); } }
+
+.Hover {
+	cursor: pointer;
+	transition: var(--transition-duration) background-color;
+	&:hover {
+		background-color: var(--hover-color); } }
+
+.ItemBorder {
+	border-bottom:
+		var(--border-width)
+		var(--border-style)
+		var(--border-color);
+	&:last-child {
+		border-bottom: 0; } }
