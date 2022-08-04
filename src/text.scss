@@ -7,3 +7,8 @@
 	color: var(--text-color-light); }
 .LightWeight {
 	font-weight: 400; }
+
+.Link {
+	color: #0052cc;
+	&:hover {
+		text-decoration: underline; } }
