@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.0.72",
+	"version": "2.0.73",
 	"main": "index.css",
 	"description": "css-utilities",
 	"name": "@oly_op/css-utilities",
@@ -20,7 +20,7 @@
 	"scripts": {
 		"init": "clear",
 		"prebuild": "del index.css",
-		"build": "sass src/index.scss index.css --no-source-map",
+		"build": "sass src/index.scss index.css --no-source-map --style compressed",
 		"prepublishOnly": "npm run init && npm run build && npm version patch --no-git-tag-version",
 		"postpublish": "del index.css &&  npm run push",
 		"sync": "git checkout . && git remote update && git pull",
