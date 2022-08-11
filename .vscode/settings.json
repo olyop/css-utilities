@@ -1,12 +1,5 @@
 {
 	"files.exclude": {
 		"index.css": true
-	},
-	"workbench.colorCustomizations": {
-		"titleBar.activeBackground": "#866950",
-		"titleBar.activeForeground": "#e7e7e7",
-		"titleBar.inactiveBackground": "#86695099",
-		"titleBar.inactiveForeground": "#e7e7e799"
-	},
-	"peacock.color": "#866950"
+	}
 }
