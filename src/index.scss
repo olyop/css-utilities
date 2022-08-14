@@ -31,7 +31,9 @@ html {
 	@media (max-width: 250px) {
 		font-size: 0.5px; } }
 
-* {
+*,
+*::after,
+*::before {
 	margin: 0;
 	border: 0;
 	padding: 0;
