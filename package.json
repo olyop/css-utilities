@@ -27,12 +27,12 @@
 		"push": "git add -A && git commit -m \"Update\" && git push -u origin master"
 	},
 	"devDependencies": {
-		"@oly_op/cspell-dict": "1.0.4",
+		"@oly_op/cspell-dict": "1.0.19",
 		"@oly_op/stylelint-config": "2.1.2",
-		"cspell": "6.6.1",
+		"cspell": "6.8.0",
 		"del-cli": "5.0.0",
-		"sass": "1.54.4",
-		"stylelint": "14.10.0",
+		"sass": "1.54.5",
+		"stylelint": "14.11.0",
 		"stylelint-scss": "4.3.0"
 	},
 	"volta": {
