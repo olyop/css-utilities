@@ -1,17 +1,32 @@
 .UpperCase {
-	text-transform: uppercase; }
+	text-transform: uppercase;
+}
 .LowerCase {
-	text-transform: lowercase; }
+	text-transform: lowercase;
+}
 
 .LightWeight {
-	font-weight: 400; }
+	font-weight: 400;
+}
 .LightColor {
-	color: var(--text-color-light); }
+	color: var(--text-color-light);
+}
 
 .Link {
 	color: #0052cc;
 	&:hover {
-		text-decoration: underline; } }
+		text-decoration: underline;
+	}
+}
+
+.Left {
+	text-align: left;
+}
 
 .Center {
-	text-align: center; }
+	text-align: center;
+}
+
+.Right {
+	text-align: right;
+}

@@ -21,13 +21,18 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	@media (max-width: 700px) {
-		font-size: 0.9px; }
+		font-size: 0.9px;
+	}
 	@media (max-width: 400px) {
-		font-size: 0.8px; }
+		font-size: 0.8px;
+	}
 	@media (max-width: 350px) {
-		font-size: 0.7px; }
+		font-size: 0.7px;
+	}
 	@media (max-width: 300px) {
-		font-size: 0.6px; } }
+		font-size: 0.6px;
+	}
+}
 
 *,
 *::after,
@@ -40,9 +45,11 @@ html {
 	font-size: inherit;
 	box-sizing: inherit;
 	font-family: inherit;
-	line-height: inherit; }
+	line-height: inherit;
+}
 
 #Root {
 	width: 100vw;
 	height: 100vh;
-	overflow: hidden; }
+	overflow: hidden;
+}

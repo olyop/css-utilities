@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "2.0.77",
+	"version": "2.0.79",
 	"main": "index.css",
 	"description": "css-utilities",
 	"name": "@oly_op/css-utilities",
@@ -27,12 +27,15 @@
 		"push": "git add -A && git commit -m \"Update\" && git push -u origin master"
 	},
 	"devDependencies": {
-		"@oly_op/cspell-dict": "1.0.100",
-		"@oly_op/stylelint-config": "2.1.2",
-		"cspell": "6.8.1",
+		"@oly_op/cspell-dict": "1.0.115",
+		"@oly_op/prettier-config": "1.0.21",
+		"@oly_op/stylelint-config": "2.1.4",
+		"cspell": "6.17.0",
 		"del-cli": "5.0.0",
-		"sass": "1.54.6",
-		"stylelint": "14.11.0",
+		"prettier": "2.8.1",
+		"sass": "1.57.0",
+		"stylelint": "14.16.0",
+		"stylelint-config-standard-scss": "6.1.0",
 		"stylelint-scss": "4.3.0"
 	},
 	"volta": {
